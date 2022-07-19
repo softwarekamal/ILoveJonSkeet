@@ -1,0 +1,5 @@
+<Project>
+	<PropertyGroup>
+	<AssemblyOriginatorKeyFile Condition="$(SignAssembly) != '' AND $(SignAssembly)">$(MSBuildThisFileDirectory)StrongKey.snk</AssemblyOriginatorKeyFile>		
+	</PropertyGroup>
+</Project>
